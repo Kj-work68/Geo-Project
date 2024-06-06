@@ -17,9 +17,9 @@ const GeoJsonMap = () => {
   }, []);
 
   const markers = [
-    { position: [48.4372764, -71.0694204], popup: " Poste-de-traite-de-Chicoutimi" }, // Bangkok
-    { position: [48.4287351, -71.0773537], popup: " CEM" }, // Chiang Mai
-    { position: [48.4293435, -71.0656554], popup: " Vieux-port de Chicoutimi" }, // Phuket
+    { position: [48.4372764, -71.0694204], popup: " Poste-de-traite-de-Chicoutimi" },
+    { position: [48.4287351, -71.0773537], popup: " CEM" }, 
+    { position: [48.4293435, -71.0656554], popup: " Vieux-port de Chicoutimi" }, 
   ];
 
   const customIcon = new Icon({
